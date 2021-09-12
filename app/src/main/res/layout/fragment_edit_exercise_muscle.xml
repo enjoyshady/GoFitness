@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ExerciseDetailsModification.EditExerciseMuscleFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/front_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/front_display_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_deltoid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/front_rolling_over"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_rolling_over_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_deltoid"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_deltoid"
+            android:text="@string/btn_deltoid"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_biceps_brachii"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_biceps_brachii"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_biceps_brachii"
+            android:text="@string/btn_biceps_brachii"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_pectoralis_major"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_deltoid" />
+
+        <Button
+            android:id="@+id/btn_pectoralis_major"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_pectoralis_major"
+            android:text="@string/btn_pectoralis_major"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_brachioradialis"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_biceps_brachii" />
+
+        <Button
+            android:id="@+id/btn_brachioradialis"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_brachioradialis"
+            android:text="@string/btn_brachioradialis"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_flexor_carpi_ulnaris"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_pectoralis_major" />
+
+        <Button
+            android:id="@+id/btn_flexor_carpi_ulnaris"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_flexor_carpi_ulnaris"
+            android:text="@string/btn_flexor_carpi_ulnaris"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_rectus_abdominis"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_brachioradialis" />
+
+        <Button
+            android:id="@+id/btn_rectus_abdominis"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_rectus_abdominis"
+            android:text="@string/btn_rectus_abdominis"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_external_oblique"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_flexor_carpi_ulnaris" />
+
+        <Button
+            android:id="@+id/btn_external_oblique"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_external_oblique"
+            android:text="@string/btn_external_oblique"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_adductor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_rectus_abdominis" />
+
+        <Button
+            android:id="@+id/btn_adductor"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_adductor"
+            android:text="@string/btn_adductor"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_quadriceps_femoris"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_external_oblique" />
+
+        <Button
+            android:id="@+id/btn_quadriceps_femoris"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_quadriceps_femoris"
+            android:text="@string/btn_quadriceps_femoris"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_tibialis_anterior"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_adductor" />
+
+        <Button
+            android:id="@+id/btn_tibialis_anterior"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_tibialis_anterior"
+            android:text="@string/btn_tibialis_anterior"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_quadriceps_femoris" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/back_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/back_display_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_trapezius"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/back_rolling_over"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_rolling_over_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_trapezius"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_trapezius"
+            android:text="@string/btn_trapezius"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_infraspinatus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_infraspinatus"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_infraspinatus"
+            android:text="@string/btn_infraspinatus"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_triceps_brachii"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_trapezius" />
+
+        <Button
+            android:id="@+id/btn_triceps_brachii"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_triceps_brachii"
+            android:text="@string/btn_triceps_brachii"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_latissimus_dorsi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_infraspinatus" />
+
+        <Button
+            android:id="@+id/btn_latissimus_dorsi"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_latissimus_dorsi"
+            android:text="@string/btn_latissimus_dorsi"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_gluteus_maximus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_triceps_brachii" />
+
+        <Button
+            android:id="@+id/btn_gluteus_maximus"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_gluteus_maximus"
+            android:text="@string/btn_gluteus_maximus"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_biceps_femoris"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_latissimus_dorsi" />
+
+        <Button
+            android:id="@+id/btn_biceps_femoris"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_biceps_femoris"
+            android:text="@string/btn_biceps_femoris"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn_gastrocnemius"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_gluteus_maximus" />
+
+        <Button
+            android:id="@+id/btn_gastrocnemius"
+            android:layout_width="@dimen/muscle_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_muscle_button_unselected"
+            android:tag="@string/btn_gastrocnemius"
+            android:text="@string/btn_gastrocnemius"
+            android:textAllCaps="false"
+            android:textColor="@color/muscle_button_unselected_color"
+            android:textSize="@dimen/muscle_button_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_biceps_femoris" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    编辑itemView       editItemLeftText:左边文本      editItemRightText：右边文本
+          editItemImage：图片   editItemIsBottom：是否最底部-->
+    <declare-styleable name="LineItemView">
+        <attr name="itemLeftText" format="string" />
+        <attr name="itemRightText" format="string" />
+        <attr name="itemImage" format="reference" />
+        <attr name="itemIsBottom" format="boolean"/>
+        <attr name="itemIsTop" format="boolean"/>
+    </declare-styleable>
+
+</resources>

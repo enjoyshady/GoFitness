@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.EditLogFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:tag="toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/white"
+        tools:title="Edit log" />
+
+    <TextView
+        android:id="@+id/exerciseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/shape_exercise_text"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textColor="@color/black_translucence_eighty"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:text="Exercise Name" />
+
+    <TextView
+        android:id="@+id/by_repetitions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/text_by_repetitions"
+        android:textColor="@color/black_translucence"
+        app:layout_constraintTop_toBottomOf="@+id/exerciseName" />
+
+    <LinearLayout
+        android:id="@+id/by_repetitions_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/by_repetitions">
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edit_log_unselected"
+            android:gravity="center"
+            android:hint="@string/text_kg"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColorHint="@color/black_translucence_thirty"
+            android:textColor="@color/black_translucence"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/repetitions"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edit_log_unselected"
+            android:gravity="center"
+            android:hint="@string/text_reps"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColorHint="@color/black_translucence_thirty"
+            android:textColor="@color/black_translucence"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/btn_by_repetitions_add_log"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edit_log_selected"
+            android:padding="4dp"
+            android:src="@drawable/ic_add_24" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/by_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/text_by_time"
+        android:textColor="@color/black_translucence"
+        app:layout_constraintTop_toBottomOf="@+id/by_repetitions_layout" />
+
+    <LinearLayout
+        android:id="@+id/by_time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/by_time">
+
+        <LinearLayout
+            android:id="@+id/btn_time_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edit_log_selected"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_time_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/text_start"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:src="@drawable/ic_pointing_right_24" />
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/btn_time_show"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edit_log_unselected"
+            android:gravity="center"
+            android:hint="@string/text_time"
+            android:textColorHint="@color/black_translucence_thirty"
+            android:textColor="@color/black_translucence"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/btn_by_time_add_log"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edit_log_selected"
+            android:gravity="center"
+            android:padding="4dp"
+            android:src="@drawable/ic_add_24" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="Timer"
+        android:textColor="@color/black_translucence"
+        app:layout_constraintTop_toBottomOf="@+id/by_time_layout" />
+
+    <LinearLayout
+        android:id="@+id/timer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/timer">
+
+        <FrameLayout
+            android:id="@+id/btn_timer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edit_log_selected">
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/text_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/image_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_timing_30" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edit_log_selected"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            tools:text="2020/02/20" />
+
+        <FrameLayout
+            android:id="@+id/btn_countdown"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_edit_log_selected">
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/text_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/image_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_countdown_30" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timer_layout"
+        app:srlEnablePureScrollMode="true">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            tools:listitem="@layout/item_line_delete_view" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <TextView
+        android:id="@+id/text_no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/text_no_log_data"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timer_layout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

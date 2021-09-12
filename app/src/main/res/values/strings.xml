@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">GoFitness</string>
+    <!--    common-->
+    <string name="text_confirm">Confirm</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_no_data">No data!</string>
+    <string name="text_no_log_data">No log information!</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_ok">OK</string>
+    <!--    main activity -->
+    <string name="nav_exercise">Exercise</string>
+    <string name="nav_today">Today</string>
+    <string name="nav_me">Me</string>
+    <string name="indicator_muscle_group">Muscle Group</string>
+    <string name="indicator_muscle">Muscle</string>
+    <!--    Muscle fragment-->
+    <string name="btn_deltoid">Deltoid</string>
+    <string name="btn_biceps_brachii">Biceps Brachii</string>
+    <string name="btn_pectoralis_major">Pectoralis Major</string>
+    <string name="btn_brachioradialis">Brachioradialis</string>
+    <string name="btn_flexor_carpi_ulnaris">Flexor Carpi Ulnaris</string>
+    <string name="btn_rectus_abdominis">Rectus Abdominis</string>
+    <string name="btn_external_oblique">External Oblique</string>
+    <string name="btn_adductor">Adductor</string>
+    <string name="btn_quadriceps_femoris">Quadriceps Femoris</string>
+    <string name="btn_tibialis_anterior">Tibialis Anterior</string>
+    <string name="btn_trapezius">Trapezius</string>
+    <string name="btn_infraspinatus">Infraspinatus</string>
+    <string name="btn_triceps_brachii">Triceps Brachii</string>
+    <string name="btn_latissimus_dorsi">Latissimus Dorsi</string>
+    <string name="btn_gluteus_maximus">Gluteus Maximus</string>
+    <string name="btn_biceps_femoris">Biceps Femoris</string>
+    <string name="btn_gastrocnemius">Gastrocnemius</string>
+    <!--    Me fragment-->
+    <string name="title_general_information">General information</string>
+    <string name="info_height">Height</string>
+    <string name="info_weight">Weight</string>
+    <string name="info_body_fat">Body Fat</string>
+    <string name="info_chest">Chest</string>
+    <string name="info_waist">Waist</string>
+    <string name="info_hips">Hips</string>
+    <string name="unit_null_cm">- cm</string>
+    <string name="unit_null_kg">- kg</string>
+    <string name="unit_null_percentage">- %</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_percentage">%</string>
+    <!--    initialization fragment-->
+    <string name="title_initialize_information">Initialize information</string>
+    <!--    Project List fragment-->
+    <string name="delete_successfully">Successfully delete.</string>
+    <string name="delete_failed">Delete failed.</string>
+    <!--    Exercise Details activity-->
+    <string name="title_exercise_details">Exercise Details</string>
+    <string name="indicator_image">Image</string>
+    <string name="indicator_description">Description</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_add_log">Add log</string>
+    <!--    History Logs Activity-->
+    <string name="title_history">History</string>
+    <string name="text_format_log">#%d : %s</string>
+    <!--    Edit log activity-->
+    <string name="text_start">Start</string>
+    <string name="text_stop">Stop</string>
+    <string name="text_kg">kg</string>
+    <string name="text_reps">reps.</string>
+    <string name="text_time">Time</string>
+    <string name="text_by_repetitions">By repetitions</string>
+    <string name="text_by_time">By time</string>
+    <string name="prompt_repetitions">Please enter repetitions to save the log.</string>
+    <string name="prompt_time">Please enter exercise time.</string>
+    <string name="text_format_time_minute">%02d : %02d</string>
+    <string name="text_format_time_hour">%02d:%02d:%02d</string>
+    <string name="dialog_title_stop_timer">Stop timer?</string>
+    <!--    Edit exercise Activity-->
+    <string name="title_edit_exercise">Edit exercise</string>
+    <string name="title_add_exercise">Add exercise</string>
+    <string name="text_add_description_here">Add description here…</string>
+    <string name="text_enter_exercise_name">Enter exercise name</string>
+    <string name="prompt_enter_exercise_name">Please enter exercise name</string>
+    <string name="prompt_enter_description">Please enter description</string>
+    <string name="text_choose_a_muscle_group">Choose a muscle group</string>
+    <string name="prompt_choose_a_muscle_group">Please choose a muscle group</string>
+    <string name="prompt_select_a_picture">Please select a picture</string>
+    <string name="prompt_select_primary_muscle">Please select the primary muscle</string>
+    <string name="text_Select">Select</string>
+    <string name="text_primary_muscle">Primary Muscle</string>
+    <string name="text_secondary_muscle">Secondary Muscle</string>
+    <string name="text_setting_data_succeeded">Setting data succeeded.</string>
+    <string name="text_failed_to_set_data">Failed to set data.</string>
+    <string name="menu_save">Save</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:id="@+id/root_view"
+    android:background="#00ffffff">
+
+    <ImageView
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:id="@+id/view_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_access_time_24"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/view_left_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black_translucence"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_right_text"
+        app:layout_constraintStart_toEndOf="@+id/view_image"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="left" />
+
+    <TextView
+        android:id="@+id/view_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black_translucence"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_arrow_forward"
+        app:layout_constraintStart_toEndOf="@+id/view_left_text"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="right" />
+
+    <ImageView
+        android:id="@+id/view_arrow_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_arrow_forward_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view_top_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_gravity="top"
+        android:background="@color/black_translucence"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/view_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_gravity="bottom"
+        android:background="@color/black_translucence"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/view_bottom_line_left_padding"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:layout_gravity="bottom"
+        android:background="@color/black_translucence"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/view_left_text"
+        tools:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

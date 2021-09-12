@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ExerciseDetailsModification.EditExerciseFragment">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:tag="toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/white"
+        tools:title="@string/title_edit_exercise" />
+
+    <EditText
+        android:id="@+id/exerciseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/shape_exercise_text"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textColor="@color/black_translucence_eighty"
+        android:textColorHint="@color/black_translucence"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:hint="@string/text_enter_exercise_name" />
+
+    <TextView
+        android:id="@+id/muscleGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/shape_exercise_text"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textColor="@color/black_translucence_eighty"
+        android:textColorHint="@color/black_translucence"
+        app:layout_constraintTop_toBottomOf="@+id/exerciseName"
+        android:hint="@string/text_choose_a_muscle_group" />
+
+    <TextView
+        android:id="@+id/magic_indicator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textColor="@color/black_translucence_eighty"
+        app:layout_constraintTop_toBottomOf="@+id/muscleGroup" />
+
+    <net.lucode.hackware.magicindicator.MagicIndicator
+        android:id="@+id/magic_indicator"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shape_exercise_text"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/magic_indicator_layout"
+        app:layout_constraintEnd_toEndOf="@+id/magic_indicator_layout"
+        app:layout_constraintStart_toStartOf="@+id/magic_indicator_layout"
+        app:layout_constraintTop_toTopOf="@+id/magic_indicator_layout" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/magic_indicator_layout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

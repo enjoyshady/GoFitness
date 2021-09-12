@@ -1,0 +1,227 @@
+[
+
+  {
+    "exerciseName": "Crunch with knees to the chest",
+    "muscleGroup": "Abdominals",
+    "imageURL": "file:///android_asset/Exercises/Abdominals/Crunch with knees to the chest.gif",
+    "primaryMuscle": "Rectus Abdominis",
+    "secondaryMuscle": "Rectus Abdominis",
+    "description": "The crunch with knees to the chest, better known as double crunch, is an advanced level exercise for training the abdominal area and for the stabilization of the lumbar area.\n\nThe \"reverse crunch\" part of this exercise, the one that involves the legs, trains in particular the lower part of your abdominals.\n\nIt is important to remember that one of the muscles involved in this exercise are the hip flexors: they are the first to be activated during the movement of the knees toward your chest."
+  },
+  {
+    "exerciseName": "Plank",
+    "muscleGroup": "Abdominals",
+    "imageURL": "file:///android_asset/Exercises/Abdominals/Plank.gif",
+    "primaryMuscle": "Rectus Abdominis",
+    "secondaryMuscle": "Rectus Abdominis",
+    "description": "The \"Plank\" and all its variants are considered among the best 5 exercises in terms of efficiency for training the central part of the torso, especially the abs, without overloading the spine as often happens with the classic Sit Up (in particular if performed with an incorrect technique). \\n\\nThe difficulty of this exercise is not so much in the movement, as in maintaining the \"in line\" position for a certain length of time and voluntarily contracting torso muscles (abdominal and oblique and lumbar abdominals) at the same time. This exercise is a “MUST” for those who want to improve their abdominal muscles but want to reduce the load on their back to a minimum."
+  },
+  {
+    "exerciseName": "Crunch with hands resting",
+    "muscleGroup": "Abdominals",
+    "imageURL": "file:///android_asset/Exercises/Abdominals/Crunch with hands resting.gif",
+    "primaryMuscle": "Rectus Abdominis",
+    "secondaryMuscle": "Rectus Abdominis",
+    "description": "This exercise for your abs is a variant on the classic crunch and is ideal for working intensively on the upper abdomen. Rest your hands on your quadriceps, work is focused on the upper part of the rectus abdominis."
+  },
+  {
+    "exerciseName": "Alternating Curls",
+    "muscleGroup": "Arms",
+    "imageURL": "file:///android_asset/Exercises/Arms/Alternating Curls.gif",
+    "primaryMuscle": "Biceps Brachii",
+    "secondaryMuscle": "Brachioradialis",
+    "description": "Alternating curls target the biceps and forearms. When done from a standing position, this move also engages your core. It’s one of the best moves for building a stronger, bigger biceps. The alternating of each arm helps prevent muscular imbalances. This exercise only requires the movement of the elbow joint."
+  },
+  {
+    "exerciseName": "Concentration Curl",
+    "muscleGroup": "Arms",
+    "imageURL": "file:///android_asset/Exercises/Arms/Biceps Curl Barbell.gif",
+    "primaryMuscle": "Biceps Brachii",
+    "secondaryMuscle": "Brachioradialis",
+    "description": "This classic isolation move help develop strong biceps and forearms. \n\nIt yields up to 97 percent biceps activity compared to preacher curls (69 percent) and barbell curls (76 percent). For best results work your weakest side first. \n\nDo this exercise at least once a week to really gain size."
+  },
+  {
+    "exerciseName": "Rotating Bicep Curl",
+    "muscleGroup": "Arms",
+    "imageURL": "file:///android_asset/Exercises/Arms/Biceps Curl Dumbbell.gif",
+    "primaryMuscle": "Biceps Brachii",
+    "secondaryMuscle": "Brachioradialis",
+    "description": "This basic isolation move combines the supine curl and hammer grip bicep curl. It's an excellent way to work both your biceps and forearms simultaneously. The rotating bicep curl is ideal for beginners and pro lifters alike, and has several variations. It can be done from a standing or sitting position."
+  },
+  {
+    "exerciseName": "Back Flyes With Resistance Bands",
+    "muscleGroup": "Back",
+    "imageURL": "file:///android_asset/Exercises/Back/Back Flyes With Resistance Bands.gif",
+    "primaryMuscle": "Trapezius",
+    "secondaryMuscle": "Biceps Brachii",
+    "description": "Back Flyes will strengthen your upper back and improve your posture.\n\nSteps: Place a resistance band mid-waist high around a post or exercise machine. Keeping your feet together, your abs tight, and your knees slightly bent, stand far enough back from the post that there is tension in the band.\n\nFrom there, bring your arms back in a controlled manner until they are perpendicular to your sides. Slowly return your arms to the starting position.\n\nTips: Be careful not to use a band that's so strong you can't use good form."
+  },
+  {
+    "exerciseName": "Hyperextensions",
+    "muscleGroup": "Back",
+    "imageURL": "file:///android_asset/Exercises/Back/Hyperextensions.gif",
+    "primaryMuscle": "Latissimus Dorsi",
+    "secondaryMuscle": "Gluteus Maximus",
+    "description": "This exercise not only adds strength but also flexibility to the back and core muscles.\n\nSteps: Adjust the hyperextension bench so that your ankles are tucked under the footpads and your thighs are flat across the top pad.\n\nWith your arms folded across your chest and your back straight, slowly bend at the waist towards the floor, keeping your back flat.\n\nSlowly return to the starting position.\n\nTips: Do not arch your back at any time during this exercise."
+  },
+  {
+    "exerciseName": "Lat Pulldown",
+    "muscleGroup": "Back",
+    "imageURL": "file:///android_asset/Exercises/Back/Lat Pulldown.gif",
+    "primaryMuscle": "Latissimus Dorsi",
+    "secondaryMuscle": "Biceps Brachii",
+    "description": "This is one of the classic body building exercises for building and sculpting the lats (back muscles).\n\nSteps: Sit at a cable pull down machine fitted with a wide bar.\n\nGrasp the bar with a wide overhand grip.\n\nWith your abs drawn in and back straight pull the bar down to your upper chest.\n\nPause for a moment and then return the bar to the starting position.\n\nTips: Use slow controlled movements during this exercise. Do not swing your back."
+  },
+  {
+    "exerciseName": "Superman",
+    "muscleGroup": "Back",
+    "imageURL": "file:///android_asset/Exercises/Back/Superman.gif",
+    "primaryMuscle": "Latissimus Dorsi",
+    "secondaryMuscle": "Biceps Brachii",
+    "description": "This simple bodyweight exercise targets the lower back muscles as well as the glutes and hamstrings. The main muscles worked are latissimus dorsi and gluteus maximus. When done regularly, the superman can help prevent back pain and improve posture."
+  },
+  {
+    "exerciseName": "Lumbar stretch with knees rotation",
+    "muscleGroup": "Back",
+    "imageURL": "file:///android_asset/Exercises/Back/Lumbar stretch with knees rotation.gif",
+    "primaryMuscle": "Latissimus Dorsi",
+    "secondaryMuscle": "Biceps Brachii",
+    "description": "The lumbar stretch is recommended to relax the back muscles and increase their flexibility. This exercise if very good to treat strains in the lumbar muscles, torn ligaments in the lumbar area and iliotibial band syndrome. This type of stretching is beneficial for many sports, such as: cycling, hiking, hockey, martial arts, running, rugby, skiing, surfing and even wrestling."
+  },
+  {
+    "exerciseName": "Barbell Incline Bench Press",
+    "muscleGroup": "Chest",
+    "imageURL": "file:///android_asset/Exercises/Chest/Barbell Incline Bench Press.gif",
+    "primaryMuscle": "Pectoralis Major",
+    "secondaryMuscle": "Triceps Brachii",
+    "description": "This is a variation of the bench press that targets your upper chest by using an incline bench. It'll help give your fuller, more balanced size.\n\nSteps: Set your bench to a 45 degree angle or find a specially designed inclined bench press bench. Lie flat on the bench with your feet firmly on the floor. Grip the bar slightly wider than shoulder width apart.\n\nLift the bar off the rack and hold it directly above your chest in the starting position. Lower the bar until it touches your chest, then hold it for a few moments. Finally, raise the bar up to the starting position.\n\nTips: Use a slow, controlled motion for the incline bench press. Don't lock your elbows when you're in the starting position."
+  },
+  {
+    "exerciseName": "Bench Press",
+    "muscleGroup": "Chest",
+    "imageURL": "file:///android_asset/Exercises/Chest/Bench Press.gif",
+    "primaryMuscle": "Pectoralis Major",
+    "secondaryMuscle": "Triceps Brachii",
+    "description": "The mighty bench press is a great exercise for building a powerful chest.\nThe bench press is one of the power exercises, known to be very effective for building body mass. Learning how to do a proper bench press is well worth the effort.\n\nSteps: Most gyms have benches specifically designed for the bench press and its variations. Lie flat on one of these benches with your feet firmly on the ground. The bar should be resting on the bench's rack.\n\nLift the bar off the rack and hold it above your chest in the starting position. Lower the bar down until it touches your chest. Hold this position briefly and make sure you have complete control of the bar. Now raise the bar up to the starting postion.\n\nReturn the bar to the rack after you've completed your set.\n\nTips: The width of your grip on the bar will change the focus of the bench press. A medium grip is most common. This is slightly wider than shoulder width apart. It's usually marked on the bar.\n\nHaving a spotter to help you with the bench press is essential. A competitive, motivating spotter is one of the most valuable assets you can find.\n\nChoose a weight that is challenging and allows you to maintain proper form. Improper form is less effective and could result in an injury. Use a slow controlled motion and never lock your elbows."
+  },
+  {
+    "exerciseName": "Butterfly",
+    "muscleGroup": "Chest",
+    "imageURL": "file:///android_asset/Exercises/Chest/Butterfly.gif",
+    "primaryMuscle": "Pectoralis Major",
+    "secondaryMuscle": "Pectoralis Major",
+    "description": "The butterfly machine is a simple way to target your chest. This is a machine exercise, so it's very easy to do.\n\nSteps: Sit on the machine with your back flat. Adjust the height of the seat so that the pads of the machine are at your chest height. Put your forearms against the pads.\n\nPush the pads together as you squeeze your chest. Push until the pads meet in the middle. Hold this position for a moment then return to the starting position.\n\nTips: Focus on using your chest for this exercise. You should be squeezing from the inner part of your chest, not pushing with your biceps or shoulders."
+  },
+  {
+    "exerciseName": "Knee Push Ups - Hands at Chest Width",
+    "muscleGroup": "Chest",
+    "imageURL": "file:///android_asset/Exercises/Chest/Knee Push Ups - Hands at Chest Width.gif",
+    "primaryMuscle": "Pectoralis Major",
+    "secondaryMuscle": "Pectoralis Major",
+    "description": "The knee push-up with hands at chest width engages the inner chest muscles. It also works your triceps, back, and core muscles. This push-up version is ideal for beginners because you're using your knees for support. Over time, it will make you stronger, increase mental toughness, and improve your balance."
+  },
+  {
+    "exerciseName": "Push Ups Knees on Bench",
+    "muscleGroup": "Chest",
+    "imageURL": "file:///android_asset/Exercises/Chest/Push Ups Knees on Bench",
+    "primaryMuscle": "Pectoralis Major",
+    "secondaryMuscle": "Pectoralis Major",
+    "description": "This exercise hits the upper chest, the triceps, and the front deltoids. It provides a complete workout for your upper body. Doing push-ups with your knees on a bench puts greater pressure on the upper body and improves your balance and coordination."
+  },
+  {
+    "exerciseName": "Push-Ups",
+    "muscleGroup": "Chest",
+    "imageURL": "file:///android_asset/Exercises/Chest/Push Ups Knees on Bench",
+    "primaryMuscle": "Pectoralis Major",
+    "secondaryMuscle": "Pectoralis Major",
+    "description": "The “push-up” is considered one of the best upper body exercises out there. This multi-joint move requires no special equipment and can be done anywhere, anytime. It targets most muscle groups, including your back, shoulders, triceps, core, and pectoral muscles. “Push-ups” are commonly used in military physical training, bodybuilding, and Cross Fit workouts. When done properly, they help build a stronger foundation and improve your overall fitness."
+  },
+  {
+    "exerciseName": "Arnold Dumbbell Press",
+    "muscleGroup": "Shoulders",
+    "imageURL": "file:///android_asset/Exercises/Shoulders/Arnold Dumbbell Press.gif",
+    "primaryMuscle": "Deltoid",
+    "secondaryMuscle": "Trapezius",
+    "description": "The Arnold Press is a variation of a standard military press that allows it to also target the rotator cuffs. It targets both your front and side deltoids.\n\nSteps: Sit on a flat bench, feet pointed forward and abs tight. Using an underhanded grip, grasp a dumbbell in each hand with elbows bent and palms facing in slightly below shoulder level. Using a steady controlled motion, raise the dumbbells while rotating your shoulders and turning your thumbs in to face each other.\n\nUsing a controlled motion, lower the dumbbells in the reverse manner to the starting position.\n\nTips: Avoid the Arnold Press if you are experiencing shoulder pain. Beginners should try this exercise with light weight to master the correct form. For most people, the rotator cuffs are underused. Keeping the weights light as you master the Arnold Press will help avoid injury."
+  },
+  {
+    "exerciseName": "Barbell Upright Row",
+    "muscleGroup": "Shoulders",
+    "imageURL": "file:///android_asset/Exercises/Shoulders/Barbell Upright Row.gif",
+    "primaryMuscle": "Deltoid",
+    "secondaryMuscle": "Trapezius",
+    "description": "The barbell upright row is a standard upright row exercise that targets your traps and deltoids.\n\nSteps: Stand up straight with your feet shoulder width apart. Grip the barbell with an overhand grip (palms facing towards your body). Don't drop your shoulders. Even in this starting position the bar should be inline with the bottom of your hip bone.\n\nNext, raise the bar towards your chin. Focus on contracting from your shoulders and traps. Raise the bar to just above your collar bone. Hold this position for a moment then slowly lower the bar back to its original position.\n\nTips: If possible, perform the barbell upright row using a rack. You'll be able to rest your barbell on this rack and pick it up from a more comfortable height when you start. This is safer than picking the barbell up from the floor.\n\nKeeping your abs tight will help protect your back during the upright row.\n\nMaintain good posture and keep your wrists straight. A shoulder width grip is best. A narrower grip will target the traps more, but it will make you more susceptible to a shoulder injury."
+  },
+  {
+    "exerciseName": "Bent Over Low-Pulley Side Lateral",
+    "muscleGroup": "Shoulders",
+    "imageURL": "file:///android_asset/Exercises/Shoulders/Bent Over Low-Pulley Side Lateral.gif",
+    "primaryMuscle": "Deltoid",
+    "secondaryMuscle": "Trapezius",
+    "description": "The bent over cable lateral raise is a good exercise for targeting your rear deltoids. The cable machine offers a consistent resistance than a dumbbell bent over raise.\n\nSteps: First attach a handle to the cable machine. Stand with your side facing to the cable machine. Bend your knees and your hips to get yourself into the bent over position. Don't bend your back. From the side you should look like a lighting bold symbol.\n\nGrab the cable handle with the arm furthest from the cable machine. Your arm should be going across the front of your body. Raise your arm across your body and out to the side. Continue until your arm is level with the ground. Hold the top position for a second then lower your arm again and return the the starting position."
+  },
+  {
+    "exerciseName": "Dumbbell Front Raise",
+    "muscleGroup": "Shoulders",
+    "imageURL": "file:///android_asset/Exercises/Shoulders/Dumbbell Front Raise.gif",
+    "primaryMuscle": "Deltoid",
+    "secondaryMuscle": "Trapezius",
+    "description": "The dumbbell front raise is one of the best shoulder exercises out there. This move isolates the anterior deltoid muscle and strengthens your core. It can be performed with a light barbell, dumbbells, or kettlebells. Beginners can use resistance bands. Watch your form and stick to light to moderate weights to prevent injuries."
+  },
+  {
+    "exerciseName": "Burpees",
+    "muscleGroup": "Shoulders",
+    "imageURL": "file:///android_asset/Exercises/Shoulders/Burpees.gif",
+    "primaryMuscle": "Deltoid",
+    "secondaryMuscle": "Trapezius",
+    "description": "This full body exercise targets all major muscle groups and helps build a strong core. It's ideal for both strength training and aerobic workouts. Burpees can turn your body into a fat burning machine while working your abs, quads, hamstrings, glutes, arms, and shoulders. As you progress, you can try different burpee variations."
+  },
+  {
+    "exerciseName": "Hindu Push Ups",
+    "muscleGroup": "Shoulders",
+    "imageURL": "file:///android_asset/Exercises/Shoulders/Hindu Push Ups.gif",
+    "primaryMuscle": "Deltoid",
+    "secondaryMuscle": "Trapezius",
+    "description": "Also known as dand, the Hindu push-up engages most muscle groups and builds overall strength. It works your chest, back, arms, shoulders, legs, and abs. Hindu push-ups also increase stamina and aerobic endurance, boost functional strength, and stimulate the release of anabolic hormones."
+  },
+  {
+    "exerciseName": "Lateral Lunge",
+    "muscleGroup": "Legs",
+    "imageURL": "file:///android_asset/Exercises/Legs/Lateral Lunge.gif",
+    "primaryMuscle": "Quadriceps Femoris",
+    "secondaryMuscle": "Gluteus Maximus",
+    "description": "This exercise targets most muscles in the lower body, including your quads, hips, outer thighs, glutes, and calves. It also engages your abs. The main muscles worked are the glutes. Lateral lunges are safe for beginners and can be done with your own bodyweight as well as with a barbell or dumbbells. Along with the squat and walking lunges, this is one of the best leg exercises out there."
+  },
+  {
+    "exerciseName": "High knees running in place",
+    "muscleGroup": "Legs",
+    "imageURL": "file:///android_asset/Exercises/Legs/High knees running in place.gif",
+    "primaryMuscle": "Quadriceps Femoris",
+    "secondaryMuscle": "Gluteus Maximus",
+    "description": "This exercise combines knee lifts with the typical running motion. It's one of the most effective moves for improving your running form as well as your speed, flexibility, and balance. The high knees run also increases your heart rate and burns calories, making it ideal for those looking to shed fat. It's the perfect exercise for a challenging cardio workout that will get your heart rate going. The main muscles involved are the quads, calves, and glutes. This move engages your abs too, and can help you get rid of love handles."
+  },
+  {
+    "exerciseName": "Butt Lift (Bridge)",
+    "muscleGroup": "Legs",
+    "imageURL": "file:///android_asset/Exercises/Legs/Butt Lift (Bridge).gif",
+    "primaryMuscle": "Gluteus Maximus",
+    "secondaryMuscle": "Latissimus Dorsi",
+    "description": "A great exercise for beginners and experienced alike. Bridges along with Planks are simple yet effective tools for building and maintaining cores strength.\n\nSteps: Lie on your back with your knees bent and your feet flat on the floor.\n\nLift up hips off the floor as you draw your abs in and keep your glutes tight."
+  },
+  {
+    "exerciseName": "Reverse Lunge",
+    "muscleGroup": "Legs",
+    "imageURL": "file:///android_asset/Exercises/Legs/Reverse Lunge",
+    "primaryMuscle": "Gluteus Maximus",
+    "secondaryMuscle": "Latissimus Dorsi",
+    "description": "The reverse lunge targets the quads. Other muscles worked are the calves, hamstrings and glutes. This compound exercise is great for building speed and lower body strength."
+  },
+  {
+    "exerciseName": "Squat",
+    "muscleGroup": "Legs",
+    "imageURL": "file:///android_asset/Exercises/Legs/Squat",
+    "primaryMuscle": "Gluteus Maximus",
+    "secondaryMuscle": "Latissimus Dorsi",
+    "description": "The “squat” is a multi-compound exercise that engages nearly every muscle in your body, especially your core, quadriceps, hamstrings, gluteus, and calves. Considered the \"king of exercises,\" it improves your balance and coordination, strengthens your core, and makes you stronger overall. “Squatting” enhances physical performance, fitness, and mobility for everyday activities. This functional move is suitable for all those sports that require lower body strength."
+  }
+]
